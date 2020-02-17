@@ -1,0 +1,13 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /manage
+spring:
+  application:
+    name: manage-server
+    
+    
+
+eureka:
+  client:
+    register-with-eureka: false
