@@ -69,7 +69,7 @@
         <org.jdom.version>2.0.2</org.jdom.version>
         <com.github.stuxuhai.version>1.1.8</com.github.stuxuhai.version>
 		<ant.version>1.6.5</ant.version>
-		<com.github.junrar.version>0.7</com.github.junrar.version>
+		<com.github.junrar.version>1.0.1</com.github.junrar.version>
 		
         <jacoco-maven-plugin.version>0.7.8</jacoco-maven-plugin.version>
         <maven-compiler-plugin.version>3.2</maven-compiler-plugin.version>
