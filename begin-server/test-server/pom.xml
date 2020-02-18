@@ -8,10 +8,11 @@
 		<version>1.0.0-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<artifactId>manage-server</artifactId>
-	<name>manage-server</name>
-	<description>个人项目管理 服务组件</description>
+	<artifactId>test-server</artifactId>
+	<name>test-server</name>
+	<description>个人测试 服务组件</description>
 
+	
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -50,7 +51,7 @@
 	</dependencies>
 	
 	<build>
-	<finalName>manage-server</finalName>
+	<finalName>test-server</finalName>
 	<resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -67,6 +68,5 @@
         </plugin>
     </plugins>
 </build>
-	
 
 </project>
