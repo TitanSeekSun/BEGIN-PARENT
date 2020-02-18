@@ -1,0 +1,13 @@
+server:
+  port: 8086
+  servlet:
+    context-path: /test
+spring:
+  application:
+    name: test-server
+    
+    
+
+eureka:
+  client:
+    register-with-eureka: false
