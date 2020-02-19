@@ -8,4 +8,9 @@
   <artifactId>begin-basic</artifactId>
   <name>begin-basic</name>
   <description>用来存放基本方法的依赖包</description>
+  			<dependency>
+			    <groupId>cn.hutool</groupId>
+			    <artifactId>hutool-all</artifactId>
+			    <version>${hutool.version}</version>
+			</dependency>
 </project>
