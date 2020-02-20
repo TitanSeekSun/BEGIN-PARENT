@@ -20,7 +20,7 @@ public class DateUtils {
 	
 	
 	/**
-	 * 鑾峰彇褰撳墠灏忔椂鐨勫垵濮嬫椂闂�
+	 * 获取当前所在时间的起始时间
 	 * @return
 	 */
 	public Date getCurrentHourStartTime() {
@@ -42,8 +42,10 @@ public class DateUtils {
 		}
 		return now.getTime();
 	}
+	
 	/**
-	 * 鑾峰彇褰撳墠鏃堕棿鍓峢ours涓皬鏃剁殑   璧峰  鏃堕棿
+	 * 获取上一个小时的起始时间
+	 * @param hours
 	 * @return
 	 */
 	public long getBeforeHourStartTimeLong(int hours) {
@@ -57,9 +59,8 @@ public class DateUtils {
 		return beforeHourStartTime;
 	}
 	/**
-	 * 鑾峰彇褰撳墠鏃堕棿鍓峢ours涓皬鏃剁殑     缁撴潫   鏃堕棿  ,璺濈鏂颁竴灏忔椂 宸�1姣
-	 * 浼�1  灏辨槸涓婁竴涓皬鏃�  
-	 * 浼�2  灏辨槸涓婁袱涓皬鏃�
+	 * 获取上一个小时的结束时间
+	 * @param hours
 	 * @return
 	 */
 	public long getBeforeHourEndTimeLong(int hours) {
@@ -73,17 +74,5 @@ public class DateUtils {
 		long beforeHourStartTime =now.getTime()- (hours-1)*hourLong -1;
 		return beforeHourStartTime;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 
 }

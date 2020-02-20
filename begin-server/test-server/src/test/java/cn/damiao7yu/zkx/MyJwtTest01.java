@@ -12,7 +12,7 @@ import io.jsonwebtoken.JwsHeader;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
-public class Mytest01 {
+public class MyJwtTest01 {
 	
 	public static void main(String[] args) {
 		Key key = new SecretKeySpec("miyao".getBytes(), SignatureAlgorithm.HS512.getJcaName());
