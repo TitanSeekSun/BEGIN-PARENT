@@ -21,6 +21,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <spring.version>5.1.5.RELEASE</spring.version>
+        <spring.webmvc.version>5.1.13.RELEASE</spring.webmvc.version>
         <feign-form.version>3.3.0</feign-form.version>
         <feign-httpclient.version>10.1.0</feign-httpclient.version>
 
@@ -28,7 +29,7 @@
         <mybatis-spring-boot-starter.version>2.0.0</mybatis-spring-boot-starter.version>
 
         <redis.cleint.version>2.9.0</redis.cleint.version>
-        <com.rabbitmq.version>3.1.1</com.rabbitmq.version>
+        <com.rabbitmq.version>4.8.0</com.rabbitmq.version>
 
         <logback.version>1.2.3</logback.version>
         <org.slf4j.version>1.7.25</org.slf4j.version>
@@ -36,8 +37,8 @@
         <codehaus.jackson.version>1.9.13</codehaus.jackson.version>
         <spring-boot.version>2.1.3.RELEASE</spring-boot.version>
         <spring-boot-admin.version>2.1.3</spring-boot-admin.version>
-        <commons-fileupload.version>1.3.1</commons-fileupload.version>
-        <jackson-databind.version>2.9.7</jackson-databind.version>
+        <commons-fileupload.version>1.3.3</commons-fileupload.version>
+        <jackson-databind.version>2.9.10.1</jackson-databind.version>
         <com.google.zxing.version>3.3.0</com.google.zxing.version>
         <javax.servlet.version>3.1.0</javax.servlet.version>
         <org.apache.poi.version>3.15</org.apache.poi.version>
@@ -45,8 +46,8 @@
         <org.apache.httpcomponents.httpasyncclient.version>4.1.2</org.apache.httpcomponents.httpasyncclient.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <apache.commons.version>2.4</apache.commons.version>
-        <org.apache.zookeeper.version>3.4.8</org.apache.zookeeper.version>
-        <com.alibaba.fastjson.version>1.2.8</com.alibaba.fastjson.version>
+        <org.apache.zookeeper.version>3.4.14</org.apache.zookeeper.version>
+        <com.alibaba.fastjson.version>1.2.25</com.alibaba.fastjson.version>
         <com.alibaba.druid.version>1.1.10</com.alibaba.druid.version>
         <com.alibaba.druid-spring-boot-starter>1.1.14</com.alibaba.druid-spring-boot-starter>
         <net.sourceforge.jexcelapi.version>2.6.12</net.sourceforge.jexcelapi.version>
@@ -69,7 +70,7 @@
         <org.jdom.version>2.0.2</org.jdom.version>
         <com.github.stuxuhai.version>1.1.8</com.github.stuxuhai.version>
 		<ant.version>1.6.5</ant.version>
-		<com.github.junrar.version>0.7</com.github.junrar.version>
+		<com.github.junrar.version>1.0.1</com.github.junrar.version>
 		
         <jacoco-maven-plugin.version>0.7.8</jacoco-maven-plugin.version>
         <maven-compiler-plugin.version>3.2</maven-compiler-plugin.version>
@@ -102,7 +103,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc</artifactId>
-                <version>${spring.version}</version>
+                <version>${spring.webmvc.version}</version>
             </dependency>
 
             <dependency>
