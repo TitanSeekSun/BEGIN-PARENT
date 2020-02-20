@@ -28,7 +28,7 @@
         <mybatis-spring-boot-starter.version>2.0.0</mybatis-spring-boot-starter.version>
 
         <redis.cleint.version>2.9.0</redis.cleint.version>
-        <com.rabbitmq.version>3.1.1</com.rabbitmq.version>
+        <com.rabbitmq.version>4.8.0</com.rabbitmq.version>
 
         <logback.version>1.2.3</logback.version>
         <org.slf4j.version>1.7.25</org.slf4j.version>
