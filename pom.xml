@@ -41,7 +41,7 @@
         <jackson-databind.version>2.9.10.1</jackson-databind.version>
         <com.google.zxing.version>3.3.0</com.google.zxing.version>
         <javax.servlet.version>3.1.0</javax.servlet.version>
-        <org.apache.poi.version>3.15</org.apache.poi.version>
+        <org.apache.poi.version>4.1.2</org.apache.poi.version>
         <org.apache.httpcomponents.version>4.5.2</org.apache.httpcomponents.version>
         <org.apache.httpcomponents.httpasyncclient.version>4.1.2</org.apache.httpcomponents.httpasyncclient.version>
         <commons-collections.version>3.2.2</commons-collections.version>
