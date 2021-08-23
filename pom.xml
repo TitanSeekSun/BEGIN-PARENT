@@ -64,7 +64,7 @@
         <dom4j.version>1.6</dom4j.version>
         <org.quartz-scheduler.version>2.2.1</org.quartz-scheduler.version>
         <com.itextpdf.version>5.5.9</com.itextpdf.version>
-        <org.jsoup.version>1.9.2</org.jsoup.version>
+        <org.jsoup.version>1.14.2</org.jsoup.version>
         <org.xhtmlrenderer.version>9.1.9</org.xhtmlrenderer.version>
         <org.jdom.version>2.0.2</org.jdom.version>
         <com.github.stuxuhai.version>1.1.8</com.github.stuxuhai.version>
