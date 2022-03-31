@@ -21,7 +21,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <spring.version>5.1.5.RELEASE</spring.version>
-        <spring.webmvc.version>5.1.13.RELEASE</spring.webmvc.version>
+        <spring.webmvc.version>5.3.18</spring.webmvc.version>
         <feign-form.version>3.3.0</feign-form.version>
         <feign-httpclient.version>10.1.0</feign-httpclient.version>
 
